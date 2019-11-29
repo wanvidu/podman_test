@@ -9,4 +9,4 @@ RUN apt-get update --fix-missing && \
     apt-get -qq -y install podman buildah && \
     apt-get clean 
     
-RUN chmod -R 0777 /etc /tmp /dev /run /var / usr /lib /bin /opt /home
+RUN chmod -R 0777 /etc /tmp /run /var /lib /bin /opt /home
