@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full
 
-RUN chmod -R 0777 /
+RUN chmod -R 0777 /var /opt ~
 
 RUN apt-get update --fix-missing && \
     apt-get install -y software-properties-common uidmap && \
