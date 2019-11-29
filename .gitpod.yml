@@ -18,7 +18,7 @@ github:
     addBadge: true
 # add a label once the prebuild is ready to pull requests (defaults to false)
     addLabel: true
-tasks:
+#tasks:
 #  - command: /opt/android-studio/bin/studio.sh
 #  - command: echo "Hello"
 ports:
