@@ -1,5 +1,7 @@
 FROM gitpod/workspace-full
 
+USER root
+
 RUN apt-get update --fix-missing && \
     apt-get install -y software-properties-common uidmap && \
     add-apt-repository -y ppa:projectatomic/ppa && \
