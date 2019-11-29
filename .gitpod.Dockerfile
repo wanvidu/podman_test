@@ -9,4 +9,4 @@ RUN apt-get update --fix-missing && \
     apt-get -qq -y install podman buildah && \
     apt-get clean 
     
-RUN chmod -R 0777 /var/lib/containers ~
+RUN chmod -R 0777 /
